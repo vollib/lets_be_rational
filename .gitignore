@@ -6,7 +6,7 @@ src/LetsBeRational_wrap.c
 *.pyc
 
 build
-dist
+# dist
 # *.egg-info
 # *.egg
 

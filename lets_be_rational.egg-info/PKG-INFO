@@ -1,11 +1,11 @@
 Metadata-Version: 1.1
 Name: lets-be-rational
-Version: 1.0.2
+Version: 1.0.3
 Summary: 
-    Peter Jäckel's LetsBeRational an extremely fast and accurate method for
-    obtaining Black's implied from option prices with as little as two
-    iterations to maximum attainable precision on standard
-    (64 bit floating point) hardware for all possible inputs.
+Peter Jäckel's LetsBeRational an extremely fast and accurate method for
+obtaining Black's implied from option prices with as little as two
+iterations to maximum attainable precision on standard
+(64 bit floating point) hardware for all possible inputs.
     
 Home-page: http://vollib.org
 Author: vollib

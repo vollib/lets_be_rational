@@ -23,7 +23,7 @@ cpp_module = Extension('lets_be_rational._LetsBeRational',
 
 setup(
     name='lets_be_rational',
-    version='1.0.2',
+    version='1.0.3',
     description='''
 Peter Jäckel's LetsBeRational an extremely fast and accurate method for
 obtaining Black's implied from option prices with as little as two
