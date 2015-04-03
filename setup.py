@@ -27,11 +27,11 @@ setup(
     version='1.0.9',
     description='''
 Peter Jäckel's LetsBeRational an extremely fast and accurate method for
-obtaining Black's implied from option prices with as little as two
+obtaining Black's implied volatility from option prices with as little as two
 iterations to maximum attainable precision on standard
 (64 bit floating point) hardware for all possible inputs.
     ''',
-    url='http://vollib.org',
+    url='http://jaeckel.org',
     download_url='git+https://github.com/vollib/lets_be_rational.git#egg=lets_be_rational',
     maintainer='vollib',
     maintainer_email='support@quantycarlo.com',
