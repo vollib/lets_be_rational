@@ -27,7 +27,7 @@ setup(
     (64 bit floating point) hardware for all possible inputs.
     ''',
     url='http://vollib.org',
-    download_url='git+ssh://git@github.com/vollib/lets_be_rational.git',
+    download_url='git+https://github.com/vollib/lets_be_rational.git#egg=lets_be_rational',
     maintainer='vollib',
     maintainer_email='support@quantycarlo.com',
     license="MIT",

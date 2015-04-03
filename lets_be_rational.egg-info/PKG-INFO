@@ -11,6 +11,6 @@ Home-page: http://vollib.org
 Author: vollib
 Author-email: support@quantycarlo.com
 License: MIT
-Download-URL: git+ssh://git@github.com/vollib/lets_be_rational.git
+Download-URL: git+https://github.com/vollib/lets_be_rational.git#egg=lets_be_rational
 Description: UNKNOWN
 Platform: UNKNOWN
