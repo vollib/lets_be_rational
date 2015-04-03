@@ -1,3 +1,5 @@
+setup.py
+lets_be_rational/LetsBeRational.py
 lets_be_rational/__init__.py
 lets_be_rational.egg-info/PKG-INFO
 lets_be_rational.egg-info/SOURCES.txt
