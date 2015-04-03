@@ -6,10 +6,6 @@ from setuptools import setup, Extension
 
 cpp_module = Extension('lets_be_rational._LetsBeRational',
                         sources = [
-                            'src/importexport.h',
-                            'src/normaldistribution.h',
-                            'src/rationalcubic.h',
-                            'src/version.h',
                             'src/erf_cody.cpp',
                             'src/normaldistribution.cpp',
                             'src/rationalcubic.cpp',
@@ -23,7 +19,7 @@ cpp_module = Extension('lets_be_rational._LetsBeRational',
 
 setup(
     name='lets_be_rational',
-    version='1.0.3',
+    version='1.0.4',
     description='''
 Peter Jäckel's LetsBeRational an extremely fast and accurate method for
 obtaining Black's implied from option prices with as little as two
@@ -36,5 +32,6 @@ iterations to maximum attainable precision on standard
     maintainer_email='support@quantycarlo.com',
     license="MIT",
     ext_modules=[cpp_module],
-    packages=['lets_be_rational']
+    packages=['lets_be_rational'],
+    include_package_data = True
 )
