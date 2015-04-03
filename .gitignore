@@ -10,5 +10,4 @@ build
 # *.egg-info
 # *.egg
 
-*.sh
 *scratch*
