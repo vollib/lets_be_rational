@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-# from distutils.core import Extension
+# encoding: utf-8
+
 from setuptools import setup, Extension
 
 
