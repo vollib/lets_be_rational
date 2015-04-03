@@ -1,7 +1,3 @@
-setup.py
-./lets_be_rational/LetsBeRational.py
-./lets_be_rational/__init__.py
-lets_be_rational/LetsBeRational.py
 lets_be_rational/__init__.py
 lets_be_rational.egg-info/PKG-INFO
 lets_be_rational.egg-info/SOURCES.txt
@@ -10,9 +6,5 @@ lets_be_rational.egg-info/top_level.txt
 src/LetsBeRational.cpp
 src/LetsBeRational.i
 src/erf_cody.cpp
-src/importexport.h
 src/normaldistribution.cpp
-src/normaldistribution.h
 src/rationalcubic.cpp
-src/rationalcubic.h
-src/version.h
