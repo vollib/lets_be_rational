@@ -1,0 +1,10 @@
+lets_be_rational/__init__.py
+lets_be_rational.egg-info/PKG-INFO
+lets_be_rational.egg-info/SOURCES.txt
+lets_be_rational.egg-info/dependency_links.txt
+lets_be_rational.egg-info/top_level.txt
+src/LetsBeRational.cpp
+src/LetsBeRational.i
+src/erf_cody.cpp
+src/normaldistribution.cpp
+src/rationalcubic.cpp
