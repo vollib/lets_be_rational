@@ -12,13 +12,19 @@ cpp_module = Extension('lets_be_rational._LetsBeRational',
                             'src/LetsBeRational.cpp',
                             'src/LetsBeRational.i'
                         ],
+                        depends=[
+                            'src/importexport.h',
+                            'src/normaldistribution.h',
+                            'src/rationalcubic.h',
+                            'src/version.h'
+                        ],
                         swig_opts=['-outdir', 'lets_be_rational'],
                         # extra_link_args=['-flat_namespace']
                         )
 
 setup(
     name='lets_be_rational',
-    version='1.0.6',
+    version='1.0.9',
     description='''
 Peter Jäckel's LetsBeRational an extremely fast and accurate method for
 obtaining Black's implied from option prices with as little as two
@@ -32,5 +38,11 @@ iterations to maximum attainable precision on standard
     license="MIT",
     ext_modules=[cpp_module],
     packages=['lets_be_rational'],
-    include_package_data=True
+    data_files=[
+        ('src', [
+            'src/importexport.h',
+            'src/normaldistribution.h',
+            'src/rationalcubic.h',
+            'src/version.h'
+        ]),]
 )
