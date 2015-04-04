@@ -91,7 +91,7 @@ etc.
 ## Contents
 
 The following functions from Peter Jäckel's code are exposed in the Python environment.
-For details consult the paper "Let's Be Rational" and its accompanying C source code.
+For details refer to the paper ["Let's Be Rational"](http://www.pjaeckel.webspace.virginmedia.com/LetsBeRational.pdf) and its accompanying C source code at [www.jaeckel.org/LetsBeRational.7z](www.jaeckel.org/LetsBeRational.7z).
 
 ```
 black
