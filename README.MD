@@ -6,8 +6,11 @@ A Python SWIG wrapper for the functions in "Let's Be Rational" by Peter Jäckel.
 # About "Let's be Rational":
 
 
-This source code resides at www.jaeckel.org/LetsBeRational.7z .
 
+
+```
+This source code resides at [www.jaeckel.org/LetsBeRational.7z.](www.jaeckel.org/LetsBeRational.7z.
+```
 ```
 Copyright © 2013-2014 Peter Jäckel.
 
