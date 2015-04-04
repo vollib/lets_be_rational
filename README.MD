@@ -1,15 +1,12 @@
 
-# lets_be_rational
+# ```lets_be_rational```
 
 A Python SWIG wrapper for the functions in "Let's Be Rational" by Peter Jäckel.
 
 # About "Let's be Rational":
 
-
-
-
 ```
-This source code resides at [www.jaeckel.org/LetsBeRational.7z.](www.jaeckel.org/LetsBeRational.7z.
+This source code resides at www.jaeckel.org/LetsBeRational.7z .
 ```
 ```
 Copyright © 2013-2014 Peter Jäckel.
@@ -26,12 +23,12 @@ merchantability, fitness for a particular purpose, or non-infringement.
 # Dependencies
 
 SWIG must be installed prior to installing lets_be_rational. Download and 
-install SWIG at http://www.swig.org/download.html .
+install [SWIG](http://www.swig.org/download.html).
 
 
 # Installation with pip
 
-Pip is the recommended method for installing lets_be_rational.
+Pip is the recommended method for installing ```lets_be_rational```.
 
 Pip can be downloaded at https://pypi.python.org/pypi/pip .
 
@@ -41,37 +38,42 @@ pip install lets_be_rational
 
 # Compiling from source
 
-Alternatively, it is possible to install by cloning the 'lets_be_rational' Github
+Alternatively, it is possible to install by cloning the ```lets_be_rational``` Github
 repository and running the make file for your OS.  The make files are in the in the 
-same directory 'lets_be_rational' along with the other source code files.
+same directory ```lets_be_rational``` along with the other source code files.
 
 
 ## Windows
 
 For Windows, run the following:
 
+```
 make.bat
+```
 
 ## Linux
 
 For Linux run the following:
 
+```
 ./make_linux.sh
+```
 
 ## Mac OS X
 
 For Mac OS X run the following:
 
+```
 ./make_osx.sh
-
+```
 
 ## After running the make file
 
-To make lets_be_rational available to your Python interpreter or project, 
-add lets_be_rational to your Python path.
+To make ```lets_be_rational``` available to your Python interpreter or project, 
+add ```lets_be_rational``` to your Python path.
 
 
-# Using lets_be_rational  
+# Using ```lets_be_rational```  
 
 lets_be_rational can be used in Python as follows:
 ```
