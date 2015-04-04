@@ -1,7 +1,10 @@
+
+
+
 lets_be_rational is a Python SWIG wrapper for the functions in "Let's Be Rational" by Peter Jäckel.
 
 
-ABOUT LET'S BE RATIONAL:
+# About "Let's be Rational":
 
 // This source code resides at www.jaeckel.org/LetsBeRational.7z .
 //
