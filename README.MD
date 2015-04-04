@@ -3,7 +3,7 @@
 
 A Python SWIG wrapper for the functions in "Let's Be Rational" by Peter Jäckel.
 
-# About "Let's be Rational":
+## About "Let's be Rational":
 
 ["Let's Be Rational"](http://www.pjaeckel.webspace.virginmedia.com/LetsBeRational.pdf) is a paper by [Peter Jäckel](http://jaeckel.org) showing *"how Black's volatility can be implied from option prices with as little as two iterations to maximum attainable precision on standard (64 bit floating point) hardware for all possible inputs."*
 
@@ -21,13 +21,13 @@ including without limitation any implied warranties of condition, uninterrupted 
 merchantability, fitness for a particular purpose, or non-infringement.
 ```
 
-# Dependencies
+## Dependencies
 
-SWIG must be installed prior to installing lets_be_rational. Download and 
+SWIG must be installed prior to installing ```lets_be_rational```. Download and 
 install [SWIG](http://www.swig.org/download.html).
 
 
-# Installation with pip
+## Installation with pip
 
 Pip is the recommended method for installing ```lets_be_rational```.
 
@@ -37,14 +37,14 @@ In the command prompt, simply type the following command:
 
 pip install lets_be_rational
 
-# Compiling from source
+## Compiling from source
 
 Alternatively, it is possible to install by cloning the ```lets_be_rational``` Github
 repository and running the make file for your OS.  The make files are in the in the 
 same directory ```lets_be_rational``` along with the other source code files.
 
 
-## Windows
+### Windows
 
 For Windows, run the following:
 
@@ -52,7 +52,7 @@ For Windows, run the following:
 make.bat
 ```
 
-## Linux
+### Linux
 
 For Linux run the following:
 
@@ -60,7 +60,7 @@ For Linux run the following:
 ./make_linux.sh
 ```
 
-## Mac OS X
+### Mac OS X
 
 For Mac OS X run the following:
 
@@ -68,13 +68,13 @@ For Mac OS X run the following:
 ./make_osx.sh
 ```
 
-## After running the make file
+### After running the make file
 
 To make ```lets_be_rational``` available to your Python interpreter or project, 
 add ```lets_be_rational``` to your Python path.
 
 
-# Using ```lets_be_rational```  
+## Using ```lets_be_rational```  
 
 ```lets_be_rational``` can be used in Python as follows:
 ```
@@ -88,7 +88,7 @@ or
 ```
 etc.
 
-## Contents
+### Contents
 
 The following functions from Peter Jäckel's code are exposed in the Python environment.
 For details refer to the paper ["Let's Be Rational"](http://www.pjaeckel.webspace.virginmedia.com/LetsBeRational.pdf) and its accompanying C source code at [www.jaeckel.org/LetsBeRational.7z](www.jaeckel.org/LetsBeRational.7z).
