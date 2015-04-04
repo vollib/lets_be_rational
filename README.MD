@@ -5,6 +5,10 @@ A Python SWIG wrapper for the functions in "Let's Be Rational" by Peter Jäckel.
 
 # About "Let's be Rational":
 
+["Let's Be Rational"](http://www.pjaeckel.webspace.virginmedia.com/LetsBeRational.pdf) is an article by [Peter Jäckel](jaeckel.org) showing *how Black's volatility can be implied from option prices with as little as two iterations to maximum attainable precision on standard (64 bit floating point) hardware for all possible inputs.*
+
+
+
 ```
 This source code resides at www.jaeckel.org/LetsBeRational.7z .
 ```
@@ -75,7 +79,7 @@ add ```lets_be_rational``` to your Python path.
 
 # Using ```lets_be_rational```  
 
-lets_be_rational can be used in Python as follows:
+```lets_be_rational``` can be used in Python as follows:
 ```
 >>> import lets_be_rational
 ```
